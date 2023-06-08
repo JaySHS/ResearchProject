@@ -1,0 +1,43 @@
+&CONTROL
+  calculation = 'scf',
+  pseudo_dir = './pseudos/',
+/
+&SYSTEM
+  degauss = 0.01,
+  ecutwfc = 100,
+  ibrav = 0,
+  nat = 12,
+  nbnd = 40,
+  occupations = 'smearing',
+  smearing = 'gaussian',
+  ntyp = 2,
+/
+&ELECTRONS
+  mixing_beta = 0.6,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+  Cu  63.5460 Cu.pbe-dn-rrkjus_psl.1.0.0.UPF
+  In  114.8180 In.pbe-dn-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+  Cu 0.00 0.00 0.00
+  Cu 0.50 0.00 0.50
+  Cu 0.00 0.50 0.50
+  Cu 0.50 0.50 0.00
+  In 0.75 0.25 0.25
+  In 0.25 0.25 0.75
+  In 0.75 0.75 0.75
+  In 0.25 0.75 0.25
+  In 0.25 0.75 0.75
+  In 0.75 0.75 0.25
+  In 0.25 0.25 0.25
+  In 0.75 0.25 0.75
+K_POINTS automatic
+  8 8 8 1 1 1
+CELL_PARAMETERS bohr
+  12.115671 0.000000 0.000000
+  0.000000 12.115671 0.000000
+  0.000000 0.000000 12.115671

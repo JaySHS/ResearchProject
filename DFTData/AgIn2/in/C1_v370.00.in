@@ -1,0 +1,33 @@
+&CONTROL
+  calculation = 'scf',
+  outdir = './tmp/',
+  prefix = 'AgIn2_C1',
+  pseudo_dir = './pseudos/',
+/
+&SYSTEM
+  celldm(1) = 11.396038430610128,
+  degauss = 0.01,
+  ecutwfc = 100,
+  ibrav = 2,
+  nat = 3,
+  nbnd = 40,
+  occupations = 'smearing',
+  smearing = 'gaussian',
+  ntyp = 2,
+/
+&ELECTRONS
+  mixing_beta = 0.6,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+  Ag  107.8682 Ag.pbe-n-rrkjus_psl.1.0.0.UPF
+  In  114.8180 In.pbe-dn-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+  Ag 0.000000 0.000000 0.000000
+  In 0.250000 0.250000 0.250000
+  In -0.250000 -0.250000 -0.250000
+K_POINTS automatic
+  10 10 10 1 1 1

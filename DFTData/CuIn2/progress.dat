@@ -1,0 +1,26 @@
+C1 calculation finished : V = 350.00
+C1 calculation finished : V = 370.00
+C1 calculation finished : V = 390.00
+C1 calculation finished : V = 410.00
+C1 calculation finished : V = 443.70
+C1 calculation finished : V = 444.61
+C1 calculation finished.
+C1 minimum volume : 444.613
+C1 minimum energy : -403.253
+
+Relax unfinished.
+Relax finished.
+C16 calculation finished : V = 700.00
+Relax finished.
+C16 calculation finished : V = 720.00
+Relax finished.
+C16 calculation finished : V = 740.00
+Relax finished.
+C16 calculation finished : V = 760.00
+Relax finished.
+C16 calculation finished : V = 841.97
+C16 calculation finished.
+C16 minimum volume : 841.956
+C16 minimum energy : -806.465
+
+Run complete.

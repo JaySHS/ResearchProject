@@ -1,0 +1,35 @@
+&CONTROL
+  calculation = 'relax',
+  etot_conv_thr = 1e-06,
+  forc_conv_thr = 0.01,
+  outdir = './tmp/',
+  prefix = 'CuIn2_Relax',
+  pseudo_dir = './pseudos/',
+/
+&SYSTEM
+  celldm(1) = 12.273923214913921,
+  celldm(3) = 0.7571428571428571,
+  ecutwfc = 100,
+  ibrav = 7,
+  nat = 6,
+  ntyp = 2,
+/
+&ELECTRONS
+  conv_thr = 1e-06,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+  Cu  63.5460 Cu.pbe-dn-rrkjus_psl.1.0.0.UPF
+  In  114.8180 In.pbe-dn-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+  Cu 0.000000 0.250000 0.250000
+  Cu 0.000000 -0.250000 -0.250000
+  In -0.500000 0.630400 -0.130400
+  In -0.500000 0.369600 0.130400
+  In 0.239201 0.130400 -0.369600
+  In 0.760799 -0.130400 -0.630400
+K_POINTS automatic
+  10 10 10 0 0 0

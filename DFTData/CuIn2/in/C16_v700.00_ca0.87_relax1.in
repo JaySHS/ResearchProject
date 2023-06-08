@@ -1,0 +1,34 @@
+&CONTROL
+  calculation = 'scf',
+  outdir = './tmp/',
+  prefix = 'CuIn2_C16',
+  pseudo_dir = './pseudos/',
+/
+&SYSTEM
+  celldm(1) = 11.71202741322724,
+  celldm(3) = 0.8714285714285714,
+  ecutwfc = 100,
+  ibrav = 7,
+  nat = 6,
+  nbnd = 40,
+  ntyp = 2,
+/
+&ELECTRONS
+  mixing_beta = 0.6,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+  Cu  63.5460 Cu.pbe-dn-rrkjus_psl.1.0.0.UPF
+  In  114.8180 In.pbe-dn-rrkjus_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+  Cu 0.000000 0.250000 0.250000
+  Cu 0.000000 -0.250000 -0.250000
+  In -0.500000 0.658192 -0.158192
+  In -0.500000 0.341808 0.158192
+  In 0.183617 0.158192 -0.341808
+  In 0.816383 -0.158192 -0.658192
+K_POINTS automatic
+  10 10 10 0 0 0
